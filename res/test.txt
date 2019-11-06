@@ -1,0 +1,4 @@
+load res/grandpa.jpg
+sepia
+greyscale
+save res/grandpaErrortest.jpg

@@ -1,0 +1,3 @@
+load res/grandpa.jpg
+greyscale
+save res/grandpagrey2.jpg

@@ -1,0 +1,3 @@
+load res/cat.jpg
+greyscale
+save res/catgrey2.jpg

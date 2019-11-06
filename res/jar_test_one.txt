@@ -1,0 +1,10 @@
+load grandpa.jpg
+blur
+blur
+blur
+sharpen
+blur
+greyscale
+mosaic 100
+dither
+save jar_grandpa.jpg

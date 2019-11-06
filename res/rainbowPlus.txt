@@ -1,0 +1,5 @@
+draw horizontal rainbow 75 50
+mosaic 1500
+shapen
+greyscale
+save res/horizontalRainbowEdits.jpg

@@ -1,0 +1,4 @@
+draw vertical rainbow 750 500
+sharpen
+greyscale
+save res/verticalEdits.jpg

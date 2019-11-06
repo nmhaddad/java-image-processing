@@ -1,0 +1,4 @@
+load res/grandpa.jpg
+sepia
+sharpen
+save res/grandpa2.jpg

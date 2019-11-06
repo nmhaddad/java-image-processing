@@ -1,0 +1,3 @@
+load res/grandpa.jpg
+filter
+save res/grandpafilter.jpg

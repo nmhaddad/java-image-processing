@@ -1,0 +1,2 @@
+draw flag Greece 13
+save res/greekflag.jpg

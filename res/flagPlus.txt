@@ -1,0 +1,5 @@
+draw flag France 60
+greyscale
+sepia
+dither
+save res/frenchFlag.jpg

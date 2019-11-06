@@ -1,0 +1,4 @@
+draw horizontal rainbow 75 50
+sharpen
+greyscale
+save res/horizontalEdits.jpg

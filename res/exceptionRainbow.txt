@@ -1,0 +1,2 @@
+draw diagonal rainbow 10 15
+save res/rainbowD.jpg

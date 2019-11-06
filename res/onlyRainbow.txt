@@ -1,0 +1,2 @@
+draw vertical rainbow 50 75
+save res/verticalRainbow.jpg

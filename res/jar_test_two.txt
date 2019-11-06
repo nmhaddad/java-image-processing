@@ -1,0 +1,8 @@
+load cat.jpg
+blur
+dither
+save jar_cat.jpg
+load grandpa.jpg
+dither
+blur
+save jar_grandpa_two.jpg

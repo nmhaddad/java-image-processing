@@ -1,0 +1,7 @@
+load res/grandpa.jpg
+sepia
+blur
+sharpen
+dither
+greyscale
+save res/grandpamulti.jpg

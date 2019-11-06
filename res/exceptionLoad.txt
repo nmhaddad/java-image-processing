@@ -1,0 +1,6 @@
+load
+blur
+blur
+blur
+blur
+save res/grandpablurall.jpg

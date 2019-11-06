@@ -1,0 +1,2 @@
+draw horizontal rainbow 75 50
+save res/horizontalRainbowTest.jpg

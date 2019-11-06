@@ -1,0 +1,6 @@
+load res/grandpa.jpg
+blur
+save res/grandpamultiimage.jpg
+load res/cat.jpg
+sharpen
+save res/catmultiimage.jpg
