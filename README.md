@@ -1,6 +1,6 @@
-#Cassidy and Nate Present...Imager!
+# Cassidy and Nate Present...Imager!
 
-#README
+# README
 
 This README is for the Imager program created for Northeastern University’s CS-5004 Object Oriented Design course, a part of the Align MSCS program. Imager is a program that takes an image or creates an image and performs an operation on the image’s pixels to produce a desired outcome. This README is specifically written for part two. 
 
@@ -11,16 +11,16 @@ To start this program using the GUI, run the JAR file included in the res/ folde
 If you would like to use the previous release of this program (the one without the GUI), you will need to enter -script in the command line (see the last sentence of this paragraph. What happens then is this: For this, we decided to use the Reader interface. We decided it was best to use a FileReader implementation of this interface. The file is then read to a Reader. This is passed to the controller along with a model that will be used throughout the entire duration of the program. The program then parses the Reader input for commands. The user must enter valid commands in order for this program to work. The commands are as follows: load [filename], save [filename], blur, sharpen, greyscale, sepia, draw [vertical/horizontal/flag] [int/string country] [int], checkerboard, dither, and mosaic. The user must enter the commands as written above with the substituted items in brackets. Otherwise, the program will generate an illegal argument exception.  The script controller is called with the following script: java -jar Program.jar -script path-of-script-file.
 
 
-#AUTHORS
+# AUTHORS
 
 - Cassidy Bayen, ALIGN MSCS, Northeastern University
 - Nathaniel Haddad, ALIGN MSCS, Northeastern University
 
-#ACKNOWLEDGMENTS
+# ACKNOWLEDGMENTS
 
 This program could not have been written without the help of the CS5004 professors and Teaching Assistants, whose guidance and wisdom helped us produce what we believe to be a pretty well organized program. 
 
-#CHANGELOG
+# CHANGELOG
 
 This is the changelog for the third release of the Imager program. It includes two controllers, a model, a GUI view. The following changelog will provide detailed updates about changes made to existing code and new additions to the Imager program.
 
@@ -38,15 +38,15 @@ In this release, we modified our main so a user could access the program from th
 
 We needed to make a couple changes to our mosaic method. In Assignment 9, we forgot to average the color for the cluster, so we included a new method getAverageColor() that does this for us. It is included in the Pixel interface and its implementations. We also added a new conditional that returns the current image for this method if the seeds is equal to the number of pixels in the image, since pixels can only be selected once, the returned image would be exactly the same. This just improves efficiency. 
 
-#NEWS
+# NEWS
 
 With this release, the user can now undo and redo operations. The program also uses a GUI. Just like before, the user can blur and sharpen images. The user can also transform images to greyscale and sepia styles. This release includes operations to draw vertical and horizontal rainbows, a French flag, a Swiss flag, and a Greek flag. The user can also use a dither or mosaic filter. 
 
-#INSTALL
+# INSTALL
 
 After the files are downloaded, open the desired program, load the files into the program, and run them! For more information, check out Google for how to run .java files on your operating system.
 
-#COPYING / LICENSE
+# COPYING / LICENSE
 
 *The following images are owned by the author and are authorized for use:*
 - Bayen, Cassidy. “cat.”
@@ -61,10 +61,10 @@ After the files are downloaded, open the desired program, load the files into th
 *The following image was found online:*
 Cadiomals. “File: LowerManhattanSept2013.Png.” Wikipedia, Wikipedia, 2 Oct. 2013, 4:17, es.wikipedia.org/wiki/Archivo:LowerManhattanSept2013.png.
 
-#BUGS
+# BUGS
 
 None – but if you find one, please let us know!
 
-#CONTRIBUTING / HACKING
+# CONTRIBUTING / HACKING
 
 Feel free to let us know how we can improve this program! We are always looking for guidance because we want to be the best we can be. Thanks in advance!
