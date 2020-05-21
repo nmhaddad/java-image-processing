@@ -1,4 +1,10 @@
-# Imager
+# Imager: an image processing application
+
+- Nathaniel Haddad haddad.na@northeastern.edu
+- Cassidy Bayen bayen.c@northeastern.edu
+- Disclosure: this is an academic project
+
+---
 
 ## README
 
@@ -9,12 +15,6 @@ This is the third release of the Imager program. The Imager program now includes
 To start this program using the GUI, run the JAR file included in the res/ folder of this submission with -interactive (See last sentence of this paragraph). After a moment, the GUI will start right up. The interactive controller is called with the following script: java -jar Program.jar -interactive.
 
 If you would like to use the previous release of this program (the one without the GUI), you will need to enter -script in the command line (see the last sentence of this paragraph. What happens then is this: For this, we decided to use the Reader interface. We decided it was best to use a FileReader implementation of this interface. The file is then read to a Reader. This is passed to the controller along with a model that will be used throughout the entire duration of the program. The program then parses the Reader input for commands. The user must enter valid commands in order for this program to work. The commands are as follows: `load [filename]`, `save [filename]`, `blur`, `sharpen`, `greyscale`, `sepia`, `draw [vertical/horizontal/flag] [int/string country] [int]`, `checkerboard`, `dither`, and `mosaic`. The user must enter the commands as written above with the substituted items in brackets. Otherwise, the program will generate an illegal argument exception.  The script controller is called with the following script: `java -jar Program.jar -script path-of-script-file`.
-
-
-## Authors
-
-- Cassidy Bayen, ALIGN MSCS, Northeastern University
-- Nathaniel Haddad, ALIGN MSCS, Northeastern University
 
 ## Acknowledgements
 
